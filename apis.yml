@@ -1,8 +1,26 @@
 aid: amalfi-semiconductor
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amalfi-semiconductor.png
 name: Amalfi Semiconductor
-description: Amalfi Semiconductor is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Amalfi Semiconductor was a fabless developer of high-performance CMOS radio frequency
+  (RF) and mixed-signal semiconductors for cellular handsets. Its proprietary CMOS-based AdaptiveRF
+  architecture delivered power amplifiers that extended battery life and talk time while reducing the
+  size and cost of front-end cellular handset designs, shipping over 100 million CMOS power amplifiers.
+  Battery Ventures led the company's $24M Series C in 2009, with further investment in 2012 alongside DCM
+  and Globespan Capital Partners. Amalfi Semiconductor was acquired by RF Micro Devices (now part of Qorvo)
+  in November 2012 for $47.5M in cash. The company is defunct as an independent entity and publishes no
+  developer portal, documentation, or public API; this profile is retained for network and portfolio-graph
+  completeness rather than API enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/amalfi-semiconductor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,30 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: rf-micro-devices
+x-acquired-date: '2012-11-05'
+x-defunct: true
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Semiconductors
+- RF
+- CMOS
+- Power Amplifiers
+- Cellular
+- Hardware
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
